@@ -3740,19 +3740,19 @@ var DefaultButton = function (_a) {
 };
 
 var tailwind_config = {
-    purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-    darkMode: false, // or 'media' or 'class'
-    theme: {
-      extend: {},
-      fontFamily: {
-        sans: ["Helvetica Neue", "sans-serif"],
-      },
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+    fontFamily: {
+      sans: ["Helvetica Neue", "sans-serif"],
     },
-    variants: {
-      extend: {},
-    },
-    plugins: [],
-  };
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
 
 var errorStyle = "mt-2 ml-4 text-xs font-light text-red-800 block";
 var labelStyle = "mt-2 block text-sm leading-5 text-black mb-1 opacity-75";
