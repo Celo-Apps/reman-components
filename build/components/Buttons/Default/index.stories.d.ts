@@ -5,8 +5,8 @@ declare const _default: {
         title: String;
         onClick?: React.MouseEventHandler<HTMLButtonElement>;
         type?: "button" | "submit" | "reset";
-        before?: JSX.Element;
-        after?: JSX.Element;
+        before?: Function | JSX.Element;
+        after?: Function | JSX.Element;
     }>;
 };
 export default _default;
